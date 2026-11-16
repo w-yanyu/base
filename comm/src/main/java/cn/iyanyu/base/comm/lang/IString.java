@@ -1,4 +1,4 @@
-package cn.iyanyu.base.lang;
+package cn.iyanyu.base.comm.lang;
 
 import cn.iyanyu.base.i18n.MessageUtil;
 

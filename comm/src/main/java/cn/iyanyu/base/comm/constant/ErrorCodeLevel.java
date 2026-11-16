@@ -1,4 +1,4 @@
-package cn.iyanyu.base.constant;
+package cn.iyanyu.base.comm.constant;
 
 public enum ErrorCodeLevel {
     TECHNICAL("T", "技术异常"),

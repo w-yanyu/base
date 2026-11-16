@@ -1,4 +1,4 @@
-package cn.iyanyu.base.error;
+package cn.iyanyu.base.comm.error;
 
 public class ErrorCode {
     private final String key;

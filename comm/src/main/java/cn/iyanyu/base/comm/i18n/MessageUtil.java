@@ -1,4 +1,4 @@
-package cn.iyanyu.base.i18n;
+package cn.iyanyu.base.comm.i18n;
 
 public class MessageUtil {
     public static String getMessage(String pattern, Object... args) {

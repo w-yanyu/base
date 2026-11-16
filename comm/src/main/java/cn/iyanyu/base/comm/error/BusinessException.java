@@ -1,4 +1,4 @@
-package cn.iyanyu.base.error;
+package cn.iyanyu.base.comm.error;
 
 
 import cn.iyanyu.base.constant.ErrorCodeLevel;

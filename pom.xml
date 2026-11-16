@@ -5,11 +5,22 @@
     <groupId>cn.iyanyu</groupId>
     <artifactId>base</artifactId>
     <version>1.0-SNAPSHOT</version>
-
+    <packaging>pom</packaging>
+    <modules>
+        <module>comm</module>
+        <module>spec</module>
+    </modules>
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot</artifactId>
+            <version>3.5.9</version>
+        </dependency>
+    </dependencies>
 </project>
