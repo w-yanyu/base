@@ -1,9 +1,8 @@
 package cn.iyanyu.base.comm.error;
 
+import cn.iyanyu.base.comm.constant.ErrorCodeLevel;
 
-import cn.iyanyu.base.constant.ErrorCodeLevel;
-
-public class BusinessException extends AbstractException{
+public class BusinessException extends AbstractException {
 
     public static final ErrorCodeLevel LEVEL = ErrorCodeLevel.BUSINESS;
     private String code = "";
@@ -13,4 +12,5 @@ public class BusinessException extends AbstractException{
         super(message);
         this.code = code;
     }
+
 }
